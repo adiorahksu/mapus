@@ -8,7 +8,9 @@ $(document).ready(function(){
     renderer: L.canvas({ tolerance: 10 })
   }).setView([lat, lon], 13);
   L.PM.setOptIn(true);
+
   var db = firebase.database();
+  // var db = firebase.database();
   var mapname = "";
   var oldname = "";
   var mapdescription = "";
